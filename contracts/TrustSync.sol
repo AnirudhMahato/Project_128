@@ -102,7 +102,7 @@ contract Project {
     
     /**
      * @dev Complete an agreement and update reputation scores
-     * @param _agreementId ID of the agreement to complete
+     * @param _agreementId: ID of the agreement to complete
      */
     function completeAgreement(uint256 _agreementId) 
         external 
@@ -178,5 +178,6 @@ contract Project {
     }
 
 }
+
 
 
