@@ -161,7 +161,7 @@ contract Project {
     
     /**
      * @dev Get user's agreement history
-     * @param _user Address of the user
+     * @param _user: Address of the user
      * @return Array of agreement IDs
      */
     function getUserAgreements(address _user) external view returns (uint256[] memory) {
@@ -178,6 +178,7 @@ contract Project {
     }
 
 }
+
 
 
 
